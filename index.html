@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel ="stylesheet" href ="./css/style.css"/>
+    <title>To Do List</title>
 </head>
 <body>
-    <h1>Random People</h1>
-
-    <div>
-        <input type="text" id="searchInput" placeholder="Search by name...">
-        <div id="peopleList" class="people-List"></div>
-        <div id="peopleList" class="message"></div>
-        <button id="sortButton" class="sort-button"></button>
-    </div>
-
+    <div id="todo-list">
+        <h1><u><b>...Daily TaskeR...</b></u></h1>
+        <li>
+        <form id="form">
+          <button id="sort-btn" type="sorting">Sort</button>
+          <input type="text" id="input" placeholder="Add new item..."/>
+          <button id="add-btn" type="submit" >Add</button>
+          </li>
+          <ul id="list"></ul>
+        </form>
+      </div>
     <script src="./script.js/code.js"></script>
 </body>
-</html>
+</html
